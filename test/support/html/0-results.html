@@ -1,0 +1,296 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Super Mario World Hacks - SMW Central</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="/html/smw.css?v=10" type="text/css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1"><script type="text/javascript">!function(e,t,n){function r(e,t){return typeof e===t}function i(e){var t=T.className,n=x._config.classPrefix||"";if(w&&(t=t.baseVal),x._config.enableJSClass){var r=new RegExp("(^|\\s)"+n+"no-js(\\s|$)");t=t.replace(r,"$1"+n+"js$2")}x._config.enableClasses&&(t+=" "+n+e.join(" "+n),w?T.className.baseVal=t:T.className=t)}function o(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):w?t.createElementNS.call(t,"http://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function s(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function a(e,n,r,i){var s,a,d,u,l="modernizr",f=o("div"),c=function(){var e=t.body;return e||((e=o(w?"svg":"body")).fake=!0),e}();if(parseInt(r,10))for(;r--;)(d=o("div")).id=i?i[r]:l+(r+1),f.appendChild(d);return(s=o("style")).type="text/css",s.id="s"+l,(c.fake?c:f).appendChild(s),c.appendChild(f),s.styleSheet?s.styleSheet.cssText=e:s.appendChild(t.createTextNode(e)),f.id=l,c.fake&&(c.style.background="",c.style.overflow="hidden",u=T.style.overflow,T.style.overflow="hidden",T.appendChild(c)),a=n(f,e),c.fake?(c.parentNode.removeChild(c),T.style.overflow=u,T.offsetHeight):f.parentNode.removeChild(f),!!a}function d(e,t){if("object"==typeof e)for(var n in e)E(e,n)&&d(n,e[n]);else{var r=(e=e.toLowerCase()).split("."),o=x[r[0]];if(2==r.length&&(o=o[r[1]]),void 0!==o)return x;t="function"==typeof t?t():t,1==r.length?x[r[0]]=t:(!x[r[0]]||x[r[0]]instanceof Boolean||(x[r[0]]=new Boolean(x[r[0]])),x[r[0]][r[1]]=t),i([(t&&0!=t?"":"no-")+r.join("-")]),x._trigger(e,t)}return x}function u(e,t){return!!~(""+e).indexOf(t)}function l(e,t){return function(){return e.apply(t,arguments)}}function f(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function c(t,n,r){var i;if("getComputedStyle"in e){i=getComputedStyle.call(e,t,n);var o=e.console;if(null!==i)r&&(i=i.getPropertyValue(r));else if(o){o[o.error?"error":"log"].call(o,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else i=!n&&t.currentStyle&&t.currentStyle[r];return i}function p(t,r){var i=t.length;if("CSS"in e&&"supports"in e.CSS){for(;i--;)if(e.CSS.supports(f(t[i]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var o=[];i--;)o.push("("+f(t[i])+":"+r+")");return a("@supports ("+(o=o.join(" or "))+") { #modernizr { position: absolute; } }",function(e){return"absolute"==c(e,null,"position")})}return n}function m(e,t,i,a){function d(){f&&(delete N.style,delete N.modElem)}if(a=!r(a,"undefined")&&a,!r(i,"undefined")){var l=p(e,i);if(!r(l,"undefined"))return l}for(var f,c,m,v,h,g=["modernizr","tspan","samp"];!N.style&&g.length;)f=!0,N.modElem=o(g.shift()),N.style=N.modElem.style;for(m=e.length,c=0;m>c;c++)if(v=e[c],h=N.style[v],u(v,"-")&&(v=s(v)),N.style[v]!==n){if(a||r(i,"undefined"))return d(),"pfx"!=t||v;try{N.style[v]=i}catch(e){}if(N.style[v]!=h)return d(),"pfx"!=t||v}return d(),!1}function v(e,t,n,i,o){var s=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+A.join(s+" ")+s).split(" ");return r(t,"string")||r(t,"undefined")?m(a,t,i,o):function(e,t,n){var i;for(var o in e)if(e[o]in t)return!1===n?e[o]:r(i=t[e[o]],"function")?l(i,n||t):i;return!1}(a=(e+" "+L.join(s+" ")+s).split(" "),t,n)}function h(e,t,r){return v(e,n,n,t,r)}var g=[],y=[],b={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){y.push({name:e,fn:t,options:n})},addAsyncTest:function(e){y.push({name:null,fn:e})}},x=function(){};x.prototype=b,(x=new x).addTest("customevent","CustomEvent"in e&&"function"==typeof e.CustomEvent),x.addTest("eventlistener","addEventListener"in e),x.addTest("history",function(){var t=navigator.userAgent;return(-1===t.indexOf("Android 2.")&&-1===t.indexOf("Android 4.0")||-1===t.indexOf("Mobile Safari")||-1!==t.indexOf("Chrome")||-1!==t.indexOf("Windows Phone")||"file:"===location.protocol)&&(e.history&&"pushState"in e.history)}),x.addTest("json","JSON"in e&&"parse"in JSON&&"stringify"in JSON),x.addTest("typedarrays","ArrayBuffer"in e),x.addTest("promises",function(){return"Promise"in e&&"resolve"in e.Promise&&"reject"in e.Promise&&"all"in e.Promise&&"race"in e.Promise&&(new e.Promise(function(e){t=e}),"function"==typeof t);var t}),x.addTest("fetch","fetch"in e),x.addTest("urlsearchparams","URLSearchParams"in e);var T=t.documentElement;x.addTest("classlist","classList"in T);var w="svg"===T.nodeName.toLowerCase();x.addTest("rgba",function(){var e=o("a").style;return e.cssText="background-color:rgba(150,255,150,.5)",(""+e.backgroundColor).indexOf("rgba")>-1});var C=function(){var e=!("onblur"in t.documentElement);return function(t,r){var i;return!!t&&(r&&"string"!=typeof r||(r=o(r||"div")),!(i=(t="on"+t)in r)&&e&&(r.setAttribute||(r=o("div")),r.setAttribute(t,""),i="function"==typeof r[t],r[t]!==n&&(r[t]=n),r.removeAttribute(t)),i)}}();b.hasEvent=C,x.addTest("multiplebgs",function(){var e=o("a").style;return e.cssText="background:url(https://),url(https://),red url(https://)",/(url\s*\(.*?){3}/.test(e.background)});var S=b._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];b._prefixes=S,x.addTest("csscalc",function(){var e="width:",t=o("a");return t.style.cssText=e+S.join("calc(10px);"+e),!!t.style.length}),x.addTest("cssgradients",function(){for(var e,t="background-image:",n="",r=0,i=S.length-1;i>r;r++)e=0===r?"to ":"",n+=t+S[r]+"linear-gradient("+e+"left top, #9f9, white);";x._config.usePrefixes&&(n+=t+"-webkit-gradient(linear,left top,right bottom,from(#9f9),to(white));");var s=o("a").style;return s.cssText=n,(""+s.backgroundImage).indexOf("gradient")>-1}),x.addTest("opacity",function(){var e=o("a").style;return e.cssText=S.join("opacity:.55;"),/^0.55$/.test(e.opacity)}),x.addTest("csspositionsticky",function(){var e="position:",t="sticky",n=o("a").style;return n.cssText=e+S.join(t+";"+e).slice(0,-e.length),-1!==n.position.indexOf(t)});var _="CSS"in e&&"supports"in e.CSS,k="supportsCSS"in e;x.addTest("supports",_||k);var z=b.testStyles=a;x.addTest("checked",function(){return z("#modernizr {position:absolute} #modernizr input {margin-left:10px} #modernizr :checked {margin-left:20px;display:block}",function(e){var t=o("input");return t.setAttribute("type","checkbox"),t.setAttribute("checked","checked"),e.appendChild(t),20===t.offsetLeft})}),z('#modernizr{font:0/0 a}#modernizr:after{content:":)";visibility:hidden;font:7px/1 a}',function(e){x.addTest("generatedcontent",e.offsetHeight>=6)}),z("#modernizr div {width:100px} #modernizr :last-child{width:200px;display:block}",function(e){x.addTest("lastchild",e.lastChild.offsetWidth>e.firstChild.offsetWidth)},2),x.addTest("siblinggeneral",function(){return z("#modernizr div {width:100px} #modernizr div ~ div {width:200px;display:block}",function(e){return 200==e.lastChild.offsetWidth},2)}),x.addTest("oninput",function(){var n,r=o("input");if(r.setAttribute("oninput","return"),C("oninput",T)||"function"==typeof r.oninput)return!0;try{var i=t.createEvent("KeyboardEvent");n=!1;var s=function(e){n=!0,e.preventDefault(),e.stopPropagation()};i.initKeyEvent("keypress",!0,!0,e,!1,!1,!1,!1,0,"e".charCodeAt(0)),T.appendChild(r),r.addEventListener("input",s,!1),r.focus(),r.dispatchEvent(i),r.removeEventListener("input",s,!1),T.removeChild(r)}catch(e){n=!1}return n});var E,P=function(){var t=e.matchMedia||e.msMatchMedia;return t?function(e){var n=t(e);return n&&n.matches||!1}:function(t){var n=!1;return a("@media "+t+" { #modernizr { position: absolute; } }",function(t){n="absolute"==(e.getComputedStyle?e.getComputedStyle(t,null):t.currentStyle).position}),n}}();b.mq=P,x.addTest("mediaqueries",P("only all")),function(){var e={}.hasOwnProperty;E=r(e,"undefined")||r(e.call,"undefined")?function(e,t){return t in e&&r(e.constructor.prototype[t],"undefined")}:function(t,n){return e.call(t,n)}}(),b._l={},b.on=function(e,t){this._l[e]||(this._l[e]=[]),this._l[e].push(t),x.hasOwnProperty(e)&&setTimeout(function(){x._trigger(e,x[e])},0)},b._trigger=function(e,t){if(this._l[e]){var n=this._l[e];setTimeout(function(){var e;for(e=0;e<n.length;e++)(0,n[e])(t)},0),delete this._l[e]}},x._q.push(function(){b.addTest=d}),x.addTest("svgasimg",t.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1"));var O="Moz O ms Webkit",A=b._config.usePrefixes?O.split(" "):[];b._cssomPrefixes=A;var j=function(t){var r,i=S.length,o=e.CSSRule;if(void 0===o)return n;if(!t)return!1;if((r=(t=t.replace(/^@/,"")).replace(/-/g,"_").toUpperCase()+"_RULE")in o)return"@"+t;for(var s=0;i>s;s++){var a=S[s];if(a.toUpperCase()+"_"+r in o)return"@-"+a.toLowerCase()+"-"+t}return!1};b.atRule=j;var L=b._config.usePrefixes?O.toLowerCase().split(" "):[];b._domPrefixes=L;var M={elem:o("modernizr")};x._q.push(function(){delete M.elem});var N={style:M.elem.style};x._q.unshift(function(){delete N.style}),b.testAllProps=v;var q=b.prefixed=function(e,t,n){return 0===e.indexOf("@")?j(e):(-1!=e.indexOf("-")&&(e=s(e)),t?v(e,t,n):v(e,"pfx"))};x.addTest("requestanimationframe",!!q("requestAnimationFrame",e),{aliases:["raf"]}),x.addTest("objectfit",!!q("objectFit"),{aliases:["object-fit"]}),b.testAllProps=h,x.addTest("cssanimations",h("animationName","a",!0)),x.addTest("backgroundsize",h("backgroundSize","100%",!0)),x.addTest("boxsizing",h("boxSizing","border-box",!0)&&(t.documentMode===n||t.documentMode>7)),x.addTest("cssgridlegacy",h("grid-columns","10px",!0)),x.addTest("cssgrid",h("grid-template-rows","none",!0)),x.addTest("ellipsis",h("textOverflow","ellipsis")),x.addTest("cssfilters",function(){if(x.supports)return h("filter","blur(2px)");var e=o("a");return e.style.cssText=S.join("filter:blur(2px); "),!!e.style.length&&(t.documentMode===n||t.documentMode>9)}),x.addTest("flexbox",h("flexBasis","1px",!0)),x.addTest("flexwrap",h("flexWrap","wrap",!0)),x.addTest("csstransforms",function(){return-1===navigator.userAgent.indexOf("Android 2.")&&h("transform","scale(1)",!0)}),function(){var e,t,n,i,o,s;for(var a in y)if(y.hasOwnProperty(a)){if(e=[],(t=y[a]).name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(i=r(t.fn,"function")?t.fn():t.fn,o=0;o<e.length;o++)1===(s=e[o].split(".")).length?x[s[0]]=i:(!x[s[0]]||x[s[0]]instanceof Boolean||(x[s[0]]=new Boolean(x[s[0]])),x[s[0]][s[1]]=i),g.push((i?"":"no-")+s.join("-"))}}(),i(g),delete b.addTest,delete b.addAsyncTest;for(var W=0;W<x._q.length;W++)x._q[W]();e.Modernizr=x}(window,document),function(){function e(){var e=!1;for(feature in Modernizr)if(!1===Modernizr[feature]&&"cssgridlegacy"!==feature){e=!0;break}var t=document.getElementById("adspace"),n=t.parentNode.parentNode;n.removeChild(t.parentNode),e&&(n.innerHTML='<table class="generic"><tr><td class="cell1"><strong class="warning">Warning!</strong> You are using an outdated browser. Some website features may malfunction and in the future, SMW Central may no longer work correctly. <a href="https://browsehappy.com">Consider upgrading your browser for a better online experience and improved security</a>.</td></tr><tr><td class="space"></td></tr></table>')}document.addEventListener?document.addEventListener("DOMContentLoaded",e):window.attachEvent("onload",e)}()</script>
+<script nomodule src="/js/vendor/fetch.js"></script><script defer src="/js/menu.js?v=1"></script><link rel="stylesheet" href="/html/extra.css?v=1632845917"><script defer src="/js/misc.js?v=1611327871"></script><script type="text/javascript" src="/html/jquery-1.8.1.min.js"></script>
+<script>
+
+	$(window).bind('keydown', function(event) {
+				if(event.ctrlKey || event.metaKey) {
+					if(String.fromCharCode(event.which).toLowerCase() == 'f'){
+				event.preventDefault();
+				document.getElementById('filterContainer').style.display = 'block';
+				document.getElementById('filterContainer').scrollIntoView();
+				document.querySelector('#filterContainer input[type=text]').focus();
+			}
+		}
+	});
+
+	var original_page_state = null;
+
+	$(function(){
+		document.querySelector('#filterContainer form').addEventListener('submit', function(event) {
+			var filter = $('#filterContainer form').serialize();
+			$.ajax({
+				url: '/ajax.php?a=getfilterresults&'+filter,
+				success: function(data) {
+					if(data) {
+						if(original_page_state == null){
+							original_page_state = jQuery.parseJSON(JSON.stringify({
+								html: $('#list_content').html(),
+								menu: $('#menu').html(),
+							}));
+
+							history.pushState(original_page_state, null);
+						}
+						$('#list_content').html(data.html);
+						$('#menu').html(data.menu);
+						$('#menu2').html(data.menu);
+						document.getElementById("list_content").scrollIntoView();
+						history.pushState(data, null, "/?" + filter);
+					}
+				}
+			});
+			event.preventDefault();
+		});
+	});
+
+	window.addEventListener("popstate", function(e) {
+		data = e.state;
+
+		$('#list_content').html(data.html);
+		$('#menu').html(data.menu);
+		$('#menu2').html(data.menu);
+		document.getElementById("list_content").scrollIntoView();
+	});
+
+</script>
+<link rel="stylesheet" type="text/css" href="/html/c3w2022/c3w2022.css">
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" width="100%">
+
+  <tr>
+    <td align="center" height="180"><img src="/images/banner.png" alt="Banner"></td>
+  </tr>
+  <tr>
+	<td align="center">
+	<div style="font-size: 15px;font-weight: bold;background: #0E0E0E;border: 1px solid #FFF;width: 506px;padding: 5px 2px;margin: 6px 0 4px;"><span style="color: red;"><span style="font-size: 20px;">WLDC has ended!</span></span></div>
+	</td>
+  </tr>
+  <tr>
+    <td height="10"></td>
+  </tr>
+  <tr>
+    <td height="50">
+      <table cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="7" height="7"><img src="/images/rope_corner_1.gif" alt=""></td>
+          <td height="7" style="background-image: url('/images/rope_horizontal.gif');"></td>
+          <td width="7" height="7"><img src="/images/rope_corner_2.gif" alt=""></td>
+        </tr>
+        <tr>
+          <td width="7" style="background-image: url('/images/rope_vertical.gif');"></td>
+          <td>
+            <table cellpadding="0" cellspacing="0" width="100%" class="text">
+              <tr>
+<td class="normal nowrap"><small>Views: 970,870,054<br>Time: <time datetime="2022-02-28T21:41:30">2022-02-28 09:41:30 PM</time></small></td><td class="normal center"><small>
+	19 users online:  <span class="un-outer"><a href="/?p=profile&amp;id=52758" style="color: #7c60b0;" class="un">alvinluis</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=24081" style="color: #97acef;" class="un">Aurel509</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=52593" style="color: #7c60b0;" class="un">babyseal</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=49785" style="color: #7c60b0;" class="un">BEESphilly</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=27395" style="color: #97acef;" class="un">blgmadresh0000</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=33557" style="color: #97acef;" class="un">BrandoGaming</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=52639" style="color: #7c60b0;" class="un">drspork</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=53552" style="color: #7c60b0;" class="un">EtherianAmber</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=36921" style="color: #97acef;" class="un">GiraffeKiller</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=49319" style="color: #97acef;" class="un">Jeosberry</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=50533" style="color: #7c60b0;" class="un">KekShadow_08</a></span>, <span class="un-outer"><span title="Helper" class="icon icon-helper"></span>&nbsp;<a href="/?p=profile&amp;id=36308" style="color: #97acef;" class="un">Kevin</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=33859" style="color: #97acef;" class="un">Marcozzo Daro</a></span>, <span class="un-outer"><span title="Staff Member" class="icon icon-staff"></span>&nbsp;<a href="/?p=profile&amp;id=22951" style="color: #ff2050;" class="un">MarioFanGamer</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=25832" style="color: #97acef;" class="un">Niko0902</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=48312" style="color: #97acef;" class="un">Nitrogen</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=44876" style="color: #7c60b0;" class="un">Notto</a></span>, <span class="un-outer"><a href="/?p=profile&amp;id=41673" style="color: #97acef;" class="un">StackDino</a></span>, <span class="un-outer"><span title="Staff Member" class="icon icon-staff"></span>&nbsp;<a href="/?p=profile&amp;id=37133" style="color: #e66600;" class="un">TickTockClock</a></span>	- Guests: 114 - Bots: 140</small>
+</td><td class="normal right nowrap"><small>Users: 53,622 (2,271 active)<br>Latest: <span class="un-outer"><a href="/?p=profile&amp;id=53624" style="color: #7c60b0;" class="un">Cheddar</a></span></small></td>
+              </tr>
+            </table>
+          </td>
+          <td width="7" style="background-image: url('/images/rope_vertical.gif');"></td>
+        </tr>
+        <tr>
+          <td width="7" height="7"><img src="/images/rope_corner_3.gif" alt=""></td>
+          <td height="7" style="background-image: url('/images/rope_horizontal.gif');"></td>
+          <td width="7" height="7"><img src="/images/rope_corner_3.gif" alt=""></td>
+        </tr>
+        <tr>
+          <td width="7" style="background-image: url('/images/rope_vertical.gif');"></td>
+          <td>
+            <table cellpadding="0" cellspacing="0" width="100%" class="text">
+              <tr>
+<td class="rope"><div class="smwcTip smwcTip-Kaizo" title="Kaizo Level"></div> <div class="smwcTip smwcTip-Pit" title="Pit Level"></div> Tip: Apply the <a href="https://www.smwcentral.net/?p=section&a=details&id=19522">Counterbreak UberASM form</a> to reset your powerup/Yoshi status in order to avoid bringing them over from previous levels.</td><td class="rope right nowrap">Not logged in.</td>
+
+              </tr>
+            </table>
+          </td>
+          <td width="7" style="background-image: url('/images/rope_vertical.gif');"></td>
+        </tr>
+        <tr>
+          <td width="7" height="7"><img src="/images/rope_corner_2.gif" alt=""></td>
+          <td height="7" style="background-image: url('/images/rope_horizontal.gif');"></td>
+          <td width="7" height="7"><img src="/images/rope_corner_1.gif" alt=""></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td height="10"></td>
+  </tr>
+  <tr>
+    <td>
+		<div class="center"><div id="adspace"></div></div>
+    </td>
+  </tr>
+  <tr>
+    <td height="10"></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td valign="top">
+            <table cellpadding="0" cellspacing="0" width="100%">
+              <tr>
+                <td width="16" height="16"><img src="/images/tree_top_left.gif" alt=""></td>
+                <td height="16" style="background-image: url('/images/tree_top.gif');"></td>
+                <td width="16" height="16"><img src="/images/tree_top_right.gif" alt=""></td>
+              </tr>
+              <tr>
+                <td width="16" style="background-image: url('/images/tree_left.gif');"></td>
+                <td class="pad text">
+<table cellspacing="0" class="generic">
+	<tr>
+		<td class="header">Super Mario World Hacks</td>
+	</tr>
+				<tr>
+			<td colspan="2" class="cell1">
+				Welcome to the hack archive of SMW Central. The BPS patches in the ZIPs are the hacks; to play the hacks, apply the patches to a clean, American Super Mario World ROM using <a href="https://www.smwcentral.net/?p=section&a=details&id=11474">Floating IPS</a>. We do not provide ROMs here, nor do we link to them. For more information, see <a href="https://www.smwcentral.net/?p=faq&page=1219815-bps-files">our FAQ</a> or the forums.			</td>
+		</tr>
+		<tr>
+			<td class="space"></td>
+		</tr>
+		<tr>
+		<td id="menu" class="cell1">
+			<table cellspacing="0" class="grid">
+	<tr>
+		<td>
+			Displaying <span class="stats">0</span> - <span class="stats">0</span> of <span class="stats">0</span>. <a href="/?p=section&amp;a=random&amp;s=smwhacks">Show random</a><br>
+			Pages: <img src="/images/previous_mono.gif" alt="&laquo;" border="0"> &#32;1 &#32;<img src="/images/next_mono.gif" alt="&raquo;" border="0">		</td>
+		<td class="right">
+			<a href="#filter" id="filterAnchor" onclick="document.getElementById('filterContainer').style.display = 'block';">Filter Results</a>
+			- <a href="/?p=section&amp;s=smwhacks&amp;g=1">Gallery View</a>
+			- <a href="/?p=section&amp;s=smwhacks&amp;u=1">Show Waiting Files (17)</a>
+			- <a href="/?p=section&amp;s=smwhacks&amp;a=submit" class="user">Submit File</a>
+		</td>
+	</tr>
+</table>
+		</td>
+	</tr>
+</table>
+<div class="spacer"></div>
+<div id="filterContainer">
+	<form action="/" method="GET"><input type="hidden" name="p" value="section"><input type="hidden" name="s" value="smwhacks"><table class="generic" cellspacing="0"><tr><td class="title" colspan="2">Filter</td></tr><tr><td class="cell1" style="width: 300px;">Name:</td><td class="cell2"><input type="text" size="40" id="filter_name" value="what the eff" name="f[name]"></td></tr><tr><td class="cell1" style="width: 300px;">Author:<br><span class="small">Up to 5, comma separated.</span></td><td class="cell2"><input type="text" size="40" id="filter_author" value="" name="f[author]"></td></tr><tr><td class="cell1" style="width: 300px;">Tags:<br><span class="small">Up to 5, comma separated. Prefix a tag with + to require multiple (+space,+planet). Prefix with - to exclude (-planet).</span></td><td class="cell2"><input type="text" size="40" id="filter_tags" value="" name="f[tags]"></td></tr><tr><td class="cell1" style="width: 300px;">Demo:</td><td class="cell2"><input value="" type="radio" name="f[demo]" id="f[demo]-621d418a2f666" checked><label for="f[demo]-621d418a2f666"> Any</label> <input value="1" type="radio" name="f[demo]" id="f[demo]-621d418a2f670"><label for="f[demo]-621d418a2f670"> Yes</label> <input value="0" type="radio" name="f[demo]" id="f[demo]-621d418a2f676"><label for="f[demo]-621d418a2f676"> No</label></td></tr><tr><td class="cell1" style="width: 300px;">Featured:<br><span class="small">Controls featured status of a hack.</span></td><td class="cell2"><input value="" type="radio" name="f[featured]" id="f[featured]-621d418a2f689" checked><label for="f[featured]-621d418a2f689"> Any</label> <input value="1" type="radio" name="f[featured]" id="f[featured]-621d418a2f690"><label for="f[featured]-621d418a2f690"> Yes</label> <input value="0" type="radio" name="f[featured]" id="f[featured]-621d418a2f69e"><label for="f[featured]-621d418a2f69e"> No</label></td></tr><tr><td class="cell1" style="width: 300px;">Type:<br><span class="small"> Hold control to select multiple.</span></td><td class="cell2"><select multiple size="10" name="f[difficulty][]"><option value="104">Standard: Easy</option><option value="105">Standard: Normal</option><option value="106">Standard: Hard</option><option value="141">Standard: Very Hard</option><option value="196">Kaizo: Beginner</option><option value="107">Kaizo: Intermediate</option><option value="197">Kaizo: Expert</option><option value="124">Tool-Assisted: Kaizo</option><option value="125">Tool-Assisted: Pit</option><option value="161">Misc.: Troll</option></select></td></tr><tr><td class="cell1" style="width: 300px;">Description:</td><td class="cell2"><input type="text" size="40" value="" name="f[description]"></td></tr><tr><td class="cell1" style="width: 300px;"></td><td class="cell2"><input type="submit" value="Filter"></td></tr></table></form>	<div class="spacer"></div>
+</div>
+<div id="list_content">
+<table cellspacing="0" class="generic">
+	<tr>
+				<td class="header">
+			<a href="/?p=section&amp;s=smwhacks&amp;u=0&amp;g=0&amp;f%5Bname%5D=what+the+eff&amp;n=1&amp;o=name&amp;d=desc">Name</a>			- <a href="/?p=section&amp;s=smwhacks&amp;u=0&amp;g=0&amp;f%5Bname%5D=what+the+eff&amp;n=1&amp;o=date&amp;d=asc">Date</a>&nbsp;<img src="/images/up.gif" alt="&uarr;" title="Descending">
+		</td>
+				<td class="header">
+			<abbr title="Demo">Demo</abbr>		</td>
+				<td class="header">
+							<a href="/?p=section&amp;s=smwhacks&amp;u=0&amp;g=0&amp;f%5Bname%5D=what+the+eff&amp;n=1&amp;o=featured&amp;d=desc">Featured</a>					</td>
+				<td class="header">
+							<a href="/?p=section&amp;s=smwhacks&amp;u=0&amp;g=0&amp;f%5Bname%5D=what+the+eff&amp;n=1&amp;o=length&amp;d=desc">Length</a>					</td>
+				<td class="header">
+			<abbr title="Type">Type</abbr>		</td>
+				<td class="header">
+			Authors
+		</td>
+				<td class="header">
+			<a href="/?p=section&amp;s=smwhacks&amp;u=0&amp;g=0&amp;f%5Bname%5D=what+the+eff&amp;n=1&amp;o=rating&amp;d=desc">Rating</a>		</td>
+				<td class="header">
+			<a href="/?p=section&amp;s=smwhacks&amp;u=0&amp;g=0&amp;f%5Bname%5D=what+the+eff&amp;n=1&amp;o=filesize&amp;d=desc">Size</a>		</td>
+				<td class="header">
+			<a href="/?p=section&amp;s=smwhacks&amp;u=0&amp;g=0&amp;f%5Bname%5D=what+the+eff&amp;n=1&amp;o=downloads&amp;d=desc">Download</a>		</td>
+	</tr>
+	</table>
+</div>
+<div class="spacer"></div>
+<table cellspacing="0" class="generic">
+	<tr>
+		<td id="menu2" class="cell1">
+			<table cellspacing="0" class="grid">
+	<tr>
+		<td>
+			Displaying <span class="stats">0</span> - <span class="stats">0</span> of <span class="stats">0</span>. <a href="/?p=section&amp;a=random&amp;s=smwhacks">Show random</a><br>
+			Pages: <img src="/images/previous_mono.gif" alt="&laquo;" border="0"> &#32;1 &#32;<img src="/images/next_mono.gif" alt="&raquo;" border="0">		</td>
+		<td class="right">
+			<a href="#filter" id="filterAnchor" onclick="document.getElementById('filterContainer').style.display = 'block';">Filter Results</a>
+			- <a href="/?p=section&amp;s=smwhacks&amp;g=1">Gallery View</a>
+			- <a href="/?p=section&amp;s=smwhacks&amp;u=1">Show Waiting Files (17)</a>
+			- <a href="/?p=section&amp;s=smwhacks&amp;a=submit" class="user">Submit File</a>
+		</td>
+	</tr>
+</table>
+		</td>
+	</tr>
+</table>
+
+                </td>
+                <td width="16" style="background-image: url('/images/tree_right.gif');"></td>
+              </tr>
+              <tr>
+                <td width="16" height="16"><img src="/images/tree_bottom_left.gif" alt=""></td>
+                <td height="16" style="background-image: url('/images/tree_bottom.gif');"></td>
+                <td width="16" height="16"><img src="/images/tree_bottom_right.gif" alt=""></td>
+              </tr>
+            </table><br>
+			<div class="center"><small>The purpose of this site is not to distribute copyrighted material, but to honor one of our favourite games.<br><br>Copyright &copy; 2005 - 2022 - SMW Central<br><a href="/?p=cms&amp;page=1219789-legal-information">Legal Information</a> - <a href="/?p=cms&amp;page=1148011-privacy-policy">Privacy Policy</a> - <a href="/?p=links">Link To Us</a></small><br><br></div>
+          </td>
+          <td width="10"></td>
+          <td width="162" valign="top">
+            <table cellpadding="0" cellspacing="0" width="162">
+              <tr>
+                <td width="16" height="16"><img src="/images/pipe_top_left.gif" alt=""></td>
+                <td width="130" height="16" align="center" style="background-image: url('/images/pipe_top.gif');"><small><img src="/images/menu.gif" alt="Menu"></small></td>
+                <td width="16" height="16"><img src="/images/pipe_top_right.gif" alt=""></td>
+              </tr>
+              <tr>
+                <td width="16" style="background-image: url('/images/pipe_vertical.gif');"></td>
+                <td width="130" class="pad menu text" id="mainmenu">
+<div class="menu_category_0">                  <div class="ex"><a href="/?p=main">Main Page</a></div>                  <div class="ex"><a href="/?p=news">News</a></div>                  <div class="ex"><a href="/?p=viewforum">Forums</a></div>                  <div class="ex"><a href="/?p=memberlist">Member List</a></div><div class="hr"></div>
+                  <div class="ex"><a href="/?p=cms&amp;page=1417699-site-wide-general-behavior-rules-and-guidelines">Rules</a></div>                  <div class="ex"><a href="/?p=faq">F.A.Q.</a></div>                  <div class="ex"><a href="/?p=cms&amp;page=1396725-meet-the-staff">Staff</a></div>                  <div class="ex"><a href="/?p=cms&amp;page=1434479-discord">Discord</a></div><div class="hr"></div>
+                  <div class="ex"><a href="/?p=register">Register</a></div>                  <div class="ex"><a href="/?p=login">Login</a></div><div class="hr"></div>
+                  <div class="ex"><a href="/?p=section&amp;s=smwhacks">SMW Hacks</a></div>                  <div class="ex"><a href="/?p=section&amp;s=sm64hacks">SM64 Hacks</a></div>                  <div class="ex"><a href="/?p=section&amp;s=yihacks">YI Hacks</a></div><div class="hr"></div>
+                  <div class="ex"><a href="/?p=section&amp;s=tools">Tools</a></div>                  <div class="ex"><a href="/?p=onlinetools">Online Tools</a></div>                  <div class="ex"><a href="/?p=section&amp;s=documents">Documents</a></div>                  <div class="ex"><a href="/?p=section&amp;s=sramdatabase">Savebase™</a></div>                  <div class="ex"><a href="/?p=section&amp;s=brrsamples">BRR Samples</a></div><div class="hr"></div>
+                  <div class="ex"><a href="/?p=section&amp;s=smwgraphics">SMW Graphics</a></div>                  <div class="ex"><a href="/?p=section&amp;s=smwmusic">SMW Music</a></div>                  <div class="ex"><a href="/?p=section&amp;s=smwblocks">SMW Blocks</a></div>                  <div class="ex"><a href="/?p=section&amp;s=smwsprites">SMW Sprites</a></div>                  <div class="ex"><a href="/?p=tweaks&amp;game=smw">SMW Tweaks</a></div>                  <div class="ex"><a href="/?p=section&amp;s=smwpatches">SMW Patches</a></div>                  <div class="ex"><a href="/?p=section&amp;s=uberasm">SMW UberASM</a></div>                  <div class="ex"><a href="/?p=memorymap&amp;m=smwrom">SMW ROM Map</a></div>                  <div class="ex"><a href="/?p=memorymap&amp;m=smwram">SMW RAM Map</a></div>                  <div class="ex"><a href="/?p=memorymap&amp;m=smwhijack">SMW Hijacks</a></div><div class="hr"></div>
+                  <div class="ex"><a href="/?p=memorymap&amp;m=sm64ram">SM64 RAM Map</a></div>                  <div class="ex"><a href="/?p=memorymap&amp;m=sm64rom">SM64 ROM Map</a></div>                  <div class="ex"><a href="/?p=section&amp;s=sm64music">SM64 Music</a></div>                  <div class="ex"><a href="/?p=section&amp;s=sm64textures">SM64 Textures</a></div><div class="hr"></div>
+                  <div class="ex"><a href="/?p=memorymap&amp;m=yisram">YI SRAM Map</a></div>                  <div class="ex"><a href="/?p=memorymap&amp;m=yiram">YI RAM Map</a></div>                  <div class="ex"><a href="/?p=memorymap&amp;m=yirom">YI ROM Map</a></div>                  <div class="ex"><a href="/?p=section&amp;s=yimusic">YI Music</a></div>                  <div class="ex"><a href="/?p=section&amp;s=yipatches">YI Patches</a></div>                  <div class="ex"><a href="/?p=section&amp;s=spasm">YI SPASM</a></div></div>
+                </td>
+                <td width="16" style="background-image: url('/images/pipe_vertical.gif');"></td>
+              </tr>
+              <tr>
+                <td width="16" height="16"><img border="0" src="/images/pipe_bottom_left.gif" alt=""></td>
+                <td width="130" height="16" style="background-image: url('/images/pipe_bottom.gif');"></td>
+                <td width="16" height="16"><img border="0" src="/images/pipe_bottom_right.gif" alt=""></td>
+              </tr>
+            </table>
+            <div id="social">
+	<h3>Follow Us On</h3>
+	<ul>
+		<li><a href="https://www.youtube.com/SMWCentralNet" title="SMW Central on YouTube"><img src="/images/social/youtube.png" alt="YouTube"></a></li>
+		<li><a href="https://www.twitch.tv/smwcentral" title="SMW Central on Twitch"><img src="/images/social/twitch.png" alt="Twitch"></a></li>
+		<li><a href="https://twitter.com/smwcentral" title="SMW Central on Twitter"><img src="/images/social/twitter.png" alt="Twitter"></a></li>
+	</ul>
+</div>
+<div id="affiliates">
+	<h3>Affiliates</h3>
+	<ul>
+			<li><a href="https://www.supermariobrosx.org" title="Super Mario Bros. X Community" rel="nofollow"><img src="/assets/images/affiliates/smbx.gif" alt="Super Mario Bros. X Community"></a></li>
+			<li><a href="https://www.romhacking.net/" title="ROMhacking.net" rel="nofollow"><img src="/assets/images/affiliates/rhdn.gif" alt="ROMhacking.net"></a></li>
+			<li><a href="https://www.mfgg.net/" title="Mario Fan Games Galaxy" rel="nofollow"><img src="/assets/images/affiliates/mfgg.gif" alt="Mario Fan Games Galaxy"></a></li>
+			<li><a href="https://sm64romhacks.com/" title="sm64romhacks" rel="nofollow"><img src="/assets/images/affiliates/sm64romhacks.png" alt="sm64romhacks"></a></li>
+		</ul>
+</div>
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+</body>
+</html>
